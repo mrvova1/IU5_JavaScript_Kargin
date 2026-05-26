@@ -13,7 +13,14 @@
     <script src="static/js/main_page.js" type="module"></script>
 </body>
 </html>
-
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+      "three/examples/jsm/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+    }
+  }
+</script>
 <script>
     async function loadFragment(sel, url) {
         try {

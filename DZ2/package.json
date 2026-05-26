@@ -2,22 +2,20 @@
   "name": "it-maintenance-backend",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/mrvova1/it-maintenance-backend#readme",
+  "homepage": "https://github.com/Sherstanoi/it-maintenance-backend#readme",
   "bugs": {
-    "url": "https://github.com/mrvova1/it-maintenance-backend/issues"
+    "url": "https://github.com/Sherstanoi/it-maintenance-backend/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrvova1/it-maintenance-backend.git"
+    "url": "git+https://github.com/Sherstanoi/it-maintenance-backend.git"
   },
   "license": "ISC",
   "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "bootstrap": "^5.3.8"

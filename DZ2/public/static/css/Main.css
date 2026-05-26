@@ -205,3 +205,11 @@ body {
   margin-top: auto;
   padding-bottom: 10px;
 }
+
+.preview-canvas {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #dde6f2;
+  border-radius: 12px;
+  object-fit: cover;
+}

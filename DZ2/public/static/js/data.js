@@ -7,7 +7,8 @@ export const data = [
             "time": "в течении 10 дней",
             "adres": "Мяумяу",
             "price": 120000000000000000000000000,
-            "detail": "Тут указываем подробную информацию по штукем 1"
+            "detail": "Тут указываем подробную информацию по штукем 1",
+            "modelPath": "static/models/Range Rover.glb"
         },{
             "id": 2,
             "src": "Logo.PNG",
@@ -16,7 +17,8 @@ export const data = [
             "time": "в течении 10 дней",
             "adres": "Мяумяу",
             "price": 12000,
-            "detail": "Тут указываем подробную информацию по штуке"
+            "detail": "Тут указываем подробную информацию по штуке",
+            "modelPath": "static/models/Range Rover.glb"
         },{
             "id": 3,
             "src": "Logo.PNG",
@@ -25,7 +27,8 @@ export const data = [
             "time": "в течении 10 дней",
             "adres": "Мяумяу",
             "price": 12000,
-            "detail": "Тут указываем подробную информацию по штуке"
+            "detail": "Тут указываем подробную информацию по штуке",
+            "modelPath": "static/models/Range Rover.glb"
         },{
             "id": 4,
             "src": "Logo.PNG",
@@ -34,7 +37,8 @@ export const data = [
             "time": "в течении 10 дней",
             "adres": "Мяумяу",
             "price": 12000,
-            "detail": "Тут указываем подробную информацию по штуке"
+            "detail": "Тут указываем подробную информацию по штуке",
+            "modelPath": "static/models/Range Rover.glb"
         },{
             "id": 5,
             "src": "Logo.PNG",
@@ -43,7 +47,8 @@ export const data = [
             "time": "в течении 10 дней",
             "adres": "Мяумяу",
             "price": 12000,
-            "detail": "Тут указываем подробную информацию по штуке"
+            "detail": "Тут указываем подробную информацию по штуке",
+            "modelPath": "static/models/Range Rover.glb"
         },{
             "id": 6,
             "src": "Logo.PNG",
@@ -52,7 +57,8 @@ export const data = [
             "time": "в течении 10 дней",
             "adres": "Мяумяу",
             "price": 12000,
-            "detail": "Тут указываем подробную информацию по штуке"
+            "detail": "Тут указываем подробную информацию по штуке",
+            "modelPath": "static/models/Range Rover.glb"
         },{
             "id": 7,
             "src": "Logo.PNG",
@@ -61,6 +67,7 @@ export const data = [
             "time": "в течении 10 дней",
             "adres": "Мяумяу",
             "price": 12000,
-            "detail": "Тут указываем подробную информацию по штуке"
+            "detail": "Тут указываем подробную информацию по штуке",
+            "modelPath": "static/models/Range Rover.glb"
         }
 ]
