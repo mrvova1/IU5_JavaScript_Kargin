@@ -1,0 +1,124 @@
+.my-btn {
+  margin-right: 5px;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #515151;
+  color: white;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  user-select: none;
+}
+
+.my-btn:hover {
+  background: darkgray;
+}
+
+.my-btn:active {
+  filter: brightness(130%);
+}
+
+.my-btn.primary {
+  background: #ff9801;
+}
+
+.my-btn.secondary {
+  background: #a6a6a6;
+}
+
+.my-btn.execute {
+  width: 110px;
+  border-radius: 34px;
+}
+
+.result {
+  width: 220px;
+  height: 50px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  background: rgb(73, 73, 73);
+  text-align: right;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 28px;
+  background:#0f172a;
+}
+
+.logo{
+  color:#ffffff;
+  font-weight:700;
+}
+
+.links a{
+  margin-left:20px;
+  color:#e5e7eb;
+  text-decoration:none;
+}
+
+.nav-btn{
+  margin-left:auto;
+  padding:8px 14px;
+  font-size:13px;
+  background:var(--btn-bg);
+  color:var(--btn-text);
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  transition:background .2s ease, transform .15s ease;
+}
+
+.nav-btn:hover{
+  background:var(--btn-hover);
+  transform:translateY(-1px);
+}
+
+:root{
+  --nav-bg:#ffffff;
+  --nav-border:#e5e7eb;
+  --nav-link:#0f172a;
+  --btn-bg:#2563eb;
+  --btn-hover:#1d4ed8;
+  --btn-text:#ffffff;
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --nav-bg:#020617;
+    --nav-border:#1f2937;
+    --nav-link:#e5e7eb;
+    --btn-bg:#3b82f6;
+    --btn-hover:#60a5fa;
+    --btn-text:#ffffff;
+  }
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  --s: 60px;
+  --c1: #6ca700;
+  --c2: #406102;
+  --_g: radial-gradient(
+    25% 25% at 25% 25%,
+    var(--c1) 99%,
+    rgba(0, 0, 0, 0) 101%
+  );
+  background: var(--_g) var(--s) var(--s) / calc(2 * var(--s))
+      calc(2 * var(--s)),
+    var(--_g) 0 0 / calc(2 * var(--s)) calc(2 * var(--s)),
+    radial-gradient(50% 50%, var(--c2) 98%, rgba(0, 0, 0, 0)) 0 0 / var(--s)
+      var(--s),
+    repeating-conic-gradient(var(--c2) 0 50%, var(--c1) 0 100%)
+      calc(0.5 * var(--s)) 0 / calc(2 * var(--s)) var(--s);
+}
+
