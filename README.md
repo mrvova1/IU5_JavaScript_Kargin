@@ -41,7 +41,7 @@ body {
 }
 ```
 2. Сделать базовое навигационное окно в верхней части страницы.
-
+```html
 <iframe src="navigation.html" frameborder="0" width="100%" height="300px"></iframe>
 
 <!-- navigation.html -->
@@ -79,7 +79,7 @@ body {
     </div>
   </div>
 </header>
-
+```
 /* navigation.css */
 ```css
 .head {
